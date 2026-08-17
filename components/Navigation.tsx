@@ -8,7 +8,7 @@ export function Navigation({ activeSection }: { activeSection: string }) {
   return (
     <aside className={`navigation ${activeSection === "home" ? "navigation--dark" : "navigation--light"}`}>
       <div className="nav-brand">
-        <button className="nav-monogram" onClick={() => goTo("home")} aria-label="Go to home">JT</button>
+        <button className="nav-monogram" onClick={() => goTo("home")} aria-label="Go to home"><img alt="" src="/assets/jt-monogram.webp" /></button>
         <div className="nav-name">Jacob Trump</div>
         <div className="nav-role">Solutions Architect · Marketing Strategy</div>
       </div>
