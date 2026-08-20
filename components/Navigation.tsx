@@ -10,7 +10,7 @@ export function Navigation({ activeSection }: { activeSection: string }) {
       <div className="nav-brand">
         <button className="nav-monogram" onClick={() => goTo("home")} aria-label="Go to home"><img alt="" src="/assets/jt-monogram.webp" /></button>
         <div className="nav-name">Jacob Trump</div>
-        <div className="nav-role">Solutions Architect · Marketing Strategy</div>
+        <div className="nav-role">Solutions Architecture · Marketing Strategy</div>
       </div>
       <button className="menu-toggle" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Toggle navigation"><i /><i /></button>
       <nav className={open ? "nav-list is-open" : "nav-list"} aria-label="Portfolio sections">
